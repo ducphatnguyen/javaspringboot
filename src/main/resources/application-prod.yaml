@@ -1,0 +1,11 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: demo
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/demo?createDatabaseIfNotExist=true
+    username: root
+    password:
